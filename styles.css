@@ -120,3 +120,30 @@ li {
     gap: 8px;
 }
 
+.quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote-box {
+    width: 90%;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    align-self: flex-start;
+}
+
+.attribution {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
+}
